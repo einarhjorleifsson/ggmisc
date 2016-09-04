@@ -6,8 +6,7 @@ Description: MRI survey functions.
 Depends:
     R (>= 3.2.3)
 Imports:
-    ggplot2,
-    RColorBrewer
+    ggplot2
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1

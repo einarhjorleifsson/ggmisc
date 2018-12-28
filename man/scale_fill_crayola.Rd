@@ -27,4 +27,3 @@ ggplot(d) +
   scale_fill_crayola() +
   theme(legend.position = "none")
 }
-

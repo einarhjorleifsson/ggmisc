@@ -1,4 +1,11 @@
-# me doing gg
+---
+title: "me doing gg"
+output: 
+  html_document: 
+    fig_height: 6
+    fig_width: 9
+    keep_md: yes
+---
 
 
 
@@ -20,7 +27,7 @@ library(tidyverse)
 
 
 ```r
-read_csv("http://data.hafro.is/assmt/2016/cod/smb.csv") %>% 
+read_csv("http://data.hafro.is/assmt/2018/cod/smb.csv") %>% 
   gather(key = age, value = oU, -Year, convert = TRUE) %>% 
   rename(year = Year) %>% 
   mutate(yc = year - age) %>% 

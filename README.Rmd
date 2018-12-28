@@ -28,7 +28,7 @@ library(tidyverse)
 #### scale_fill_crayola (only function so far)
 
 ```{r, crayola}
-read_csv("http://data.hafro.is/assmt/2016/cod/smb.csv") %>% 
+read_csv("http://data.hafro.is/assmt/2018/cod/smb.csv") %>% 
   gather(key = age, value = oU, -Year, convert = TRUE) %>% 
   rename(year = Year) %>% 
   mutate(yc = year - age) %>% 

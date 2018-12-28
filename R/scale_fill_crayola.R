@@ -1,5 +1,6 @@
 #' Crayola colour
 #'
+#'
 #' @param n Number of repeats of the colours, default set to 100
 #' @param ... Additional parameters to pass to  \code{scale_fill_manual}.
 #'

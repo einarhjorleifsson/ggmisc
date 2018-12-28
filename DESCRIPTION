@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Einar", "Hjorleifsson", email = "einar.hjorleifsson@gmail.com", role = c("aut", "cre"))
 Description: MRI survey functions.
 Depends:
-    R (>= 3.2.3)
+    R (>= 3.2.4)
 Imports:
     ggplot2
 License: GPL-3

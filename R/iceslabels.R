@@ -19,7 +19,7 @@
 
 #' Title
 #'
-#' @param breaks
+#' @param breaks ... description needed
 #'
 #' @export
 #'
@@ -43,7 +43,7 @@ iceslabelsx <- function(breaks) {
 
 #' Title
 #'
-#' @param breaks
+#' @param breaks ... description needed
 #'
 #' @export
 #'

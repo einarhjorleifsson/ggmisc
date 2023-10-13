@@ -14,6 +14,6 @@ scale_colour_crayola <- function(n = 100, ...) {
            "#FB9A99", "#E31A1C", "#FDBF6F", "#FF7F00",
            "#CAB2D6", "#6A3D9A", "#FFFF99", "#B15928")
   pal <- rep(pal, n)
-  ggplot2::scale_colour_manual(values = pal, ...)
+  ggplot2::scale_colour_manual(values = pal, guide = "none")
 
 }

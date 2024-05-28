@@ -4,12 +4,12 @@
 \alias{scale_colour_crayola}
 \title{Crayola colour}
 \usage{
-scale_colour_crayola(n = 100, ...)
+scale_colour_crayola(n = 100, guide = "none")
 }
 \arguments{
 \item{n}{Number of repeats of the colours, default set to 100}
 
-\item{...}{Additional parameters to pass to  \code{scale_fill_manual}.}
+\item{guide}{guide (default "none", rather than "legend")}
 }
 \description{
 Crayola colour

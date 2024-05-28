@@ -4,26 +4,13 @@
 \alias{scale_fill_crayola}
 \title{Crayola colour}
 \usage{
-scale_fill_crayola(n = 100, ...)
+scale_fill_crayola(n = 100, guide = "none")
 }
 \arguments{
 \item{n}{Number of repeats of the colours, default set to 100}
 
-\item{...}{Additional parameters to pass to  \code{scale_fill_manual}.}
+\item{guide}{guide (default "none", rather than "legend")}
 }
 \description{
 Crayola colour
-}
-\examples{
-library(ggplot2)
-d <-
-  expand.grid(year = 2000:2010,
-              age = 1:10)
-d$yc <- as.factor(d$year - d$age)
-d$value <- rnorm(nrow(d))
-ggplot(d) +
-  geom_bar(aes(year, value, fill = yc), stat = "identity") +
-  facet_grid(age ~ .) +
-  scale_fill_crayola() +
-  theme(legend.position = "none")
 }
